@@ -1,0 +1,1 @@
+DECLARE @exists int;SELECT @exists = COUNT(*) FROM COSTOS.dbo.Usuarios WHERE 0=0 AND Usuario = '@user' AND Password = '@pass' AND Activo = 1;select @exists [existe]
